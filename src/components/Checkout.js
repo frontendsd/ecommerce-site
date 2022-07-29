@@ -8,7 +8,6 @@ function Checkout() {
 
   const itemList = (item) => {
     total = total + item.price;
-    //   console.log(item);
     return (
       <li className="list-group-item d-flex justify-content-between lh-sm">
         <div>
